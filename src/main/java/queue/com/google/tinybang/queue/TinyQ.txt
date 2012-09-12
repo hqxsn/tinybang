@@ -1,0 +1,15 @@
+TinyQ is designed for the high performance and high scalability message queue solution, which is not working based on the JMS definition.
+
+The TinyQ will be designed with the client and the server;
+    - Client: Supports to simply override one handler for the business logic, the queue connection and the consumer size, working thread are all configurable.
+    - Server: Simply use the Server.start to start the server, need not configure the queue name (support runtime adding the queue)
+
+Why use the TinyQ?
+
+    - High performance
+    - High scalability
+    - Thrift API - you can simply write your client for any language
+    - plugin-able persistence solution
+    - Simply implement the Java version client (just add your business handler)
+
+
